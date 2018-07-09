@@ -178,7 +178,7 @@ bot.dialog('aprobar', [
 bot.dialog('chiste', [
     function (session) {
         var respuestas = 
-            '😅 Que hace 99 veces clic y un clac?'
+            '😅 mmm a ver... Qué hace 99 veces clic y un clac?'
         ;
         session.send(respuestas);
     }
