@@ -69,8 +69,8 @@ bot.dialog('inicio', [
 bot.dialog('saludo', [
     function (session) {
         var respuestas = [
-            '😲 Discúlpenme, buenas noches a todos los presentes, soy Dorian, un chatbot. 🤗',
-            '😲 Discúlpenme, soy Dorian, un chatbot, buenas noches a todos los presentes. 🤗'
+            '😲 Discúlpenme, buenas noches a todos los presentes, soy Timy, un chatbot. 🤗',
+            '😲 Discúlpenme, soy Timy, un chatbot, buenas noches a todos los presentes. 🤗'
         ];
         session.send(respuestas[Math.floor(Math.random()*respuestas.length)]);
         
