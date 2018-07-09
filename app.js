@@ -175,6 +175,28 @@ bot.dialog('aprobar', [
     matches: 'aprobar'
 });
 
+bot.dialog('chiste', [
+    function (session) {
+        var respuestas = 
+            '😅 Que hace 99 veces clic y un clac?'
+        ;
+        session.send(respuestas);
+    }
+]).triggerAction({
+    matches: 'chiste'
+});
+
+bot.dialog('chisterespuesta', [
+    function (session) {
+        var respuestas = 
+            '😆 Pues un cien pies con una pata de palo. 😆'
+        ;
+        session.send(respuestas);
+    }
+]).triggerAction({
+    matches: 'chisterespuesta'
+});
+
 bot.dialog('despedida', [
     function (session) {
         var respuestas = [
