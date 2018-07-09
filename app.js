@@ -105,10 +105,22 @@ bot.dialog('ayuda', [
     matches: 'ayuda'
 });
 
+bot.dialog('creacionfake', [
+    function (session) {
+        var respuestas = 
+            'Bueno todo comenzo cuando mi papáBot enamoró a mi mamá bot, y una noche. 😆'
+        ;
+        session.send(respuestas);
+        
+    }
+]).triggerAction({
+    matches: 'creacionfake'
+});
+
 bot.dialog('creacion', [
     function (session) {
         var respuestas = 
-            'Mi creación comienza al crearse una cuenta en Luis.ai para que te puedas crear un app.'
+            'jejeje,ok ok. Me pondré serio. Mi creación comienza al crearse una cuenta en Luis.ai para que te puedas crear un app.'
         ;
         session.send(respuestas);
         
@@ -155,7 +167,7 @@ bot.dialog('creacion1', [
 bot.dialog('aprobar', [
     function (session) {
         var respuestas = 
-            '😅 pues si haz sido responsable con tus trabajos, no habrá problemas, de todas formas daré lo mejor de mi para ayudarte. 🙂👍'
+            '😅 pues si haz sido responsable con tus trabajos, no habrá problemas, de todas formas estoy dando lo mejor de mi para ayudarte. 🙂👍'
         ;
         session.send(respuestas);
     }
