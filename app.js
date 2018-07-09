@@ -120,7 +120,7 @@ bot.dialog('creacionfake', [
 bot.dialog('creacion', [
     function (session) {
         var respuestas = 
-            'jejeje,ok ok. Me pondré serio. Mi creación comienza al crearse una cuenta en Luis.ai para que te puedas crear un app.'
+            'jejeje,ok ok. Me pondré serio. Para mi creación se requiere una cuenta en Luis.ai para que te puedas crear un app, y por ahí me vayas entrenando.'
         ;
         session.send(respuestas);
         
@@ -144,7 +144,7 @@ bot.dialog('luis', [
 bot.dialog('intencion', [
     function (session) {
         var respuestas = 
-            'El sistema de Inteligencia Artificial, lo primero que trata de identificar cuando alguien le escribe es la “intención” de lo que el usuario le ha querido decir. Por ejemplo, si estamos delante de un chatbot para reservar entradas, habremos definido diferentes intenciones propias del negocio como ComprarEntrada, ModificarReserva, DevoluciónEntrada,etc.'
+            'Como decia me entrenan para que pueda reconocer las intenciones. La intención es lo primero que trato de identificar cuando alguien me escribe. Por ejemplo, si estamos delante de uno de mis amigos chatbot para reservar entradas, habrán definido diferentes intenciones propias del negocio como ComprarEntrada, ModificarReserva, DevoluciónEntrada, etc.'
         ;
         session.send(respuestas);   
     }
@@ -155,7 +155,7 @@ bot.dialog('intencion', [
 bot.dialog('creacion1', [
     function (session) {
         var respuestas = 
-            'De acuerdo, luego tienen que crearse una cuenta en Azure, tienen que tener crédito por supuesto. Crearse un servicio de Machine Lerning en una web app, enlazar las credenciales con el código que se subirá a github que estará sincronizado con Azure, y luego conversar. 🙂'
+            'De acuerdo, luego tienen que crearse una cuenta en Azure, tienen que tener crédito por supuesto. Crearse un servicio de Machine Lerning en una web app, enlazar las credenciales del app de Luis.ai con el código que se subirá a github que estará sincronizado con Azure, y luego conversar. 🙂'
         ;
         session.send(respuestas);
         
